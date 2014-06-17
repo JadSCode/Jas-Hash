@@ -11,8 +11,14 @@ Allows you to encrypt text to "TERRIFYING" text + decryption in the opposite dir
 
 ```php
 
-$_Hash = new Jas_Hash();
-echo $_Hash->encrypt("xxxxx");
+<?php
+
+
+require_once "JasHash.class.php";
+
+$_Hash  = new Jas_Hash();
+echo $_Hash->encrypt("Hello world !");
+// Output : 0:119:4:108:9:72:10:33:0588000780011-6-8-7-4-9-2-3-1-10-0-12-11-5
 
 ```
 
@@ -21,9 +27,14 @@ echo $_Hash->encrypt("xxxxx");
 
 ```php
 
-$_Hash = new Jas_Hash();
-echo $_Hash->decrypt("0:117:5:105:14:73:15:32:01368001777888000-11-13-2-10-6-15-5-4-1-16-9-14-8-3-0-12-7");
+<?php
 
+
+require_once "JasHash.class.php";
+
+$_Hash  = new Jas_Hash();
+echo $_Hash->decrypt("0:119:4:108:9:72:10:33:0588000780011-6-8-7-4-9-2-3-1-10-0-12-11-5");
+// Output : Hello world !
 ```
 
 
