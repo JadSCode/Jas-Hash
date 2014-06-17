@@ -5,10 +5,8 @@ Allows you to encrypt text to "TERRIFYING" text + decryption in the opposite dir
 
 ## Examples  
 
--Encryption
-*[encrypt] = http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=encrypt&text=[YOUR-TEXT-GOES-HERE] 
--Decryption
-*[decrypt] = http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=decrypt&text=[ENCRYPTED-TEXT] 
+-Encryption  : http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=encrypt&text=[YOUR-TEXT-GOES-HERE] 
+-Decryption  : http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=decrypt&text=[ENCRYPTED-TEXT] 
 
 
 ## How to use? 
@@ -51,4 +49,6 @@ echo $_Hash->decrypt("0:119:4:108:9:72:10:33:0588000780011-6-8-7-4-9-2-3-1-10-0-
 ### 0.1
 
 ----
+
+
 
