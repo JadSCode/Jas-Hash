@@ -3,6 +3,13 @@
 
 Allows you to encrypt text to "TERRIFYING" text + decryption in the opposite direction
 
+## Examples  
+
+-Encryption
+*[encrypt] = http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=encrypt&text=[YOUR-TEXT-GOES-HERE] 
+-Decryption
+*[decrypt] = http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=decrypt&text=[ENCRYPTED-TEXT] 
+
 
 ## How to use? 
 
