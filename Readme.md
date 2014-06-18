@@ -5,9 +5,9 @@ Allows you to encrypt text to "TERRIFYING" text + decryption in the opposite dir
 
 ## Examples  
 
- - Encryption  : http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=encrypt&text=[YOUR-TEXT-GOES-HERE]
+ - Encryption  : http://jas-hash.appspot.com/?cmd=encrypt&text=[YOUR-TEXT-GOES-HERE]
 
-- Decryption  : http://vm-0.jawadsoft.koding.kd.io/Jas-Hash/?cmd=decrypt&text=[ENCRYPTED-TEXT] 
+ - Decryption  : http://jas-hash.appspot.com/?cmd=decrypt&text=[ENCRYPTED-TEXT] 
 
 
 ## How to use? 
